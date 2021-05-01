@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PostController">
+   <children>
+      <Button fx:id="discardBtn" layoutX="1035.0" layoutY="20.0" mnemonicParsing="false" onAction="#discardTxt" prefHeight="94.0" prefWidth="238.0" text="Discard">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Button>
+      <Button fx:id="menuBtn" layoutX="1035.0" layoutY="137.0" mnemonicParsing="false" onAction="#homeScene" prefHeight="70.0" prefWidth="238.0" text="Menu">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Button>
+      <Button fx:id="postBtn" layoutX="360.0" layoutY="802.0" mnemonicParsing="false" onAction="#addPost" prefHeight="70.0" prefWidth="580.0" text="Post">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Button>
+      <TextArea fx:id="postTxt" layoutX="14.0" layoutY="252.0" prefHeight="536.0" prefWidth="1266.0" promptText="Speak your mind...">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="usernameTxt" editable="false" layoutX="14.0" layoutY="79.0" prefHeight="117.0" prefWidth="378.0">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
