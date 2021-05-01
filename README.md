@@ -20,3 +20,4 @@ A social media application for elders
 2. To open project click File>Open Projects from File System>select Directory>Finish
 3. Open Main.java
 4. Run the program to view our application
+hi
