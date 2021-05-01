@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WelcomePageController">
+   <children>
+      <Button fx:id="LoginButton" layoutX="524.0" layoutY="283.0" mnemonicParsing="false" onAction="#changeSceneToLoginPage" prefHeight="94.0" prefWidth="252.0" text="Login">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Button>
+      <Button fx:id="SignUpButton" layoutX="524.0" layoutY="416.0" mnemonicParsing="false" onAction="#changeSceneToSignUpPage" prefHeight="94.0" prefWidth="252.0" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="WeShareLogo" fitHeight="137.0" fitWidth="327.0" layoutX="487.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../bin/application/WeShareLogo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="QuitButton" layoutX="524.0" layoutY="546.0" mnemonicParsing="false" onAction="#quitApplication" prefHeight="94.0" prefWidth="252.0" text="Quit">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Button fx:id="HomeButton" layoutX="34.0" layoutY="36.0" mnemonicParsing="false" onAction="#changeSceneToWelcomePage" prefHeight="95.0" prefWidth="180.0" text="Home">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Button>
+      <Text fx:id="WeShareLoginText" layoutX="450.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WeShare Login">
+         <font>
+            <Font name="Candara" size="69.0" />
+         </font>
+      </Text>
+      <Text fx:id="UsernamePrompt" layoutX="510.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" wrappingWidth="379.216796875">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <TextField fx:id="LoginUsername" layoutX="510.0" layoutY="343.0" prefHeight="93.0" prefWidth="337.0">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></TextField>
+      <Text fx:id="PasswordPrompt" layoutX="510.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="379.216796875">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <Button fx:id="LoginButton" layoutX="510.0" layoutY="607.0" mnemonicParsing="false" onAction="#verifyingLoginInfo" prefHeight="54.0" prefWidth="176.0" text="Login">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="LoginPassword" layoutX="510.0" layoutY="493.0" prefHeight="93.0" prefWidth="337.0">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
