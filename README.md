@@ -3,7 +3,7 @@ A social media application for elders
 
 - Name of project: WeShare
 - Team name: BetterTogether
-- Collaborators: Tyler Holstein Tiba Al Anssari, Lisette Isais, John Le, Samuel Shiau
+- Collaborators: Tyler Holstein, Tiba Al Anssari, Lisette Isais, John Le, Samuel Shiau
 - App Description: Our app functions as a basic blog post application that caters to the elderly and helps them stay in touch within the community 
 - Known bugs: none
 - Login info: Username: ok, Password: ok
