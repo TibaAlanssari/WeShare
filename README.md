@@ -20,3 +20,6 @@ A social media application for elders
 2. To open project click File>Open Projects from File System>select Directory>Finish
 3. Open Main.java
 4. Run the program to view our application
+
+##UML Diagram
+![WeShareUMLDiagram](https://user-images.githubusercontent.com/55297857/116769342-ff026100-aa00-11eb-81c2-2bc0b183ece8.png)
