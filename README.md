@@ -9,13 +9,13 @@ A social media application for elders
 - Login info: Username: ok, Password: ok
 - Versions: Java 8 and Scenebuilder 2
 
-- How to clone and run our code:
-  - Clone Project:
+## How to clone and run our code:
+  ### Clone Project:
 1. Download git
 2. Open git
 3. within git cd into the folder you want to place the project in
 4. In git type: git clone https://github.com/TibaAlanssari/WeShare.git
-  - Run the Project:
+  ### Run the Project:
 1. Open eclipse
 2. To open project click File>Open Projects from File System>select Directory>Finish
 3. Open Main.java
